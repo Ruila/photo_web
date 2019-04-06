@@ -1,16 +1,20 @@
 <template>
   <div id="profile" >
-
-  <pagination></pagination>
+    <img src="src/assets/me.jpg" style="position:relative; top:150px; left:50px;
+      width:450px; height: 450px;" />
+    <div class="introduction">
+    <p>臺南人</p>
+    <p></p>
+    </div>
   </div>
 </template>
 
 <script>
-import pagination from './pagination.vue'
+
 
 export default {
   components: {
-    pagination,
+
   }
 }
 </script>
@@ -18,11 +22,15 @@ export default {
 <style lang="less">
 
 #profile {
-  position: relative;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  top: 50px;
+}
+
+.introduction {
+  position:relative;
+  margin-left: 700px;
+  top:-300px;
 }
 
 </style>

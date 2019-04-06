@@ -1,7 +1,5 @@
-
 import Header from './components/Header.vue'
 import Home from './components/Home.vue'
-
 import Work from './components/Work.vue'
 import Profile from './components/profile.vue'
 

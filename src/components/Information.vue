@@ -1,7 +1,9 @@
 <template>
   <div id="information">
     <div id="naa">
-      <a><router-link to="/" >MENGRULIN</router-link></a>
+      <a style="font-size:30px; font-weight:600; margin-right:70px;"><router-link to="/" >MENGRULIN</router-link></a>
+      <img src="./instagram.png" style="width:20px; height:20px;">
+      <img src="./facebook-logo.png" style="width:20px; height:20px;">
     </div>
     <ul>
       <li>
@@ -55,7 +57,6 @@ export default {
 
 #information a {
   text-decoration: none;
-  font-size: 13px;
   color: #484848;
   font-family: Tahoma;
 }
@@ -63,6 +64,7 @@ export default {
 #information li {
   top: -81px;
   left: 50px;
+  font-size: 13px;
   position: relative;
   list-style-type: none;
   color: #5d5d5d;

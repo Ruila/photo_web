@@ -5,6 +5,7 @@ import { routes } from './routes.js' //路由規則
 import mojs from './mo.min.js'
 import store from './stores/index.js'
 import VueTap from 'v-tap'
+//import './components/font/font.css'
 
 
 

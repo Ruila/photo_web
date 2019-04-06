@@ -38,9 +38,9 @@ export default {
 
 img[title="films"] {
   position: relative;
-  width: 50%;
-  height: 50%;
-  left: 25%;
+  width: 100%;
+  height: 100%;
+
   top: 150px;
   margin: 1px;
 }
@@ -50,7 +50,7 @@ img[title="films"] {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  top: 50px;
+  top:-80px;
 }
 
 </style>
